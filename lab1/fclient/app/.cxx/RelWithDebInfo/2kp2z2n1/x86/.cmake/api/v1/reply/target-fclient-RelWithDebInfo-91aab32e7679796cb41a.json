@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/vmt/Projects/rpo/lab1/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86/libfclient.so"
+			"path" : "/home/vmt/Projects/rpo/lab1/fclient/app/build/intermediates/cxx/RelWithDebInfo/2kp2z2n1/obj/x86/libfclient.so"
 		}
 	],
 	"backtrace" : 1,
@@ -55,7 +55,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC"
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC"
 				}
 			],
 			"defines" : 
@@ -68,11 +68,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/vmt/Projects/rpo/libs/spdlog/spdlog/include"
+					"path" : "/home/vmt/Projects/rpo/lab1/libs/spdlog/spdlog/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/vmt/Projects/rpo/libs/mbedtls/mbedtls/include"
+					"path" : "/home/vmt/Projects/rpo/lab1/libs/mbedtls/mbedtls/include"
 				}
 			],
 			"language" : "CXX",
@@ -107,7 +107,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/home/vmt/Projects/rpo/libs/spdlog/build/x86/libspdlog.a",
+				"fragment" : "/home/vmt/Projects/rpo/lab1/libs/spdlog/build/x86/libspdlog.a",
 				"role" : "libraries"
 			},
 			{

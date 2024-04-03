@@ -16,7 +16,60 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d2da1a9-e36b-4784-afc5-7b39ecdc2a48" name="Changes" comment="chain ndkVersion '25.1'" />
+    <list default="true" id="3d2da1a9-e36b-4784-afc5-7b39ecdc2a48" name="Changes" comment="chain ndkVersion '25.1'">
+      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cache-v2-02dd7ac3b7b811a783e2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cmakeFiles-v1-ec025826d9f089204a9a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/codemodel-v2-f3191ac8eee1c4e97a73.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/index-2024-04-03T00-29-44-0622.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/target-fclient-Debug-8342487c2adc552df322.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/cache-v2-aab9542dc35c17ae3417.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/cmakeFiles-v1-9ea0c013eda228031823.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/codemodel-v2-b2c5b71fa1fe5d1fa5be.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/directory-.-RelWithDebInfo-f5ebdc15457944623624.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/index-2024-04-03T00-29-45-0182.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/target-fclient-RelWithDebInfo-91aab32e7679796cb41a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/additional_project_files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/build_file_index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/compile_commands.json.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/configure_fingerprint.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/metadata_generation_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/prefab_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/symbol_folder_index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/tools/release/x86/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cache-v2-df7dad169986f7e1f77d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cmakeFiles-v1-e533788db5f7f17100e0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/codemodel-v2-6c6e6f27e0a4c75a3792.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/index-2024-04-02T09-54-59-0262.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/target-fclient-Debug-f15e8999951763bd436c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/tools/debug/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/tools/debug/x86/compile_commands.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,22 +116,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "last_opened_file_path": "/home/vmt/Projects/rpo/lab1/fclient",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vmt/Projects/rpo/lab1/fclient&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Properties" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />

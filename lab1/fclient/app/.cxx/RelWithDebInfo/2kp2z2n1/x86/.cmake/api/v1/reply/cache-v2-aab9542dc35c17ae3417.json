@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "RelWithDebInfo"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -151,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/vmt/Projects/rpo/lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86"
+			"value" : "/home/vmt/Projects/rpo/lab1/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/home/vmt/Projects/rpo/lab1/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86"
+			"value" : "/home/vmt/Projects/rpo/lab1/fclient/app/build/intermediates/cxx/RelWithDebInfo/2kp2z2n1/obj/x86"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -979,7 +979,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/home/vmt/Projects/rpo/lab1/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86"
+			"value" : "/home/vmt/Projects/rpo/lab1/fclient/app/build/intermediates/cxx/RelWithDebInfo/2kp2z2n1/obj/x86"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vmt/Projects/rpo/lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86"
+			"value" : "/home/vmt/Projects/rpo/lab1/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86"
 		},
 		{
 			"name" : "fclient_IS_TOP_LEVEL",
