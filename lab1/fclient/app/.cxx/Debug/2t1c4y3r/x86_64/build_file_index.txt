@@ -1,0 +1,1 @@
+/home/vmt/Projects/rpo/lab1/fclient/app/src/main/cpp/CMakeLists.txt

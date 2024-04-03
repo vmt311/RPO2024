@@ -1,0 +1,40 @@
+{
+  "buildFiles": [
+    "/home/vmt/Projects/rpo/lab1/fclient/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/vmt/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/vmt/Projects/rpo/lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/vmt/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/vmt/Projects/rpo/lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "fclient::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "fclient",
+      "output": "/home/vmt/Projects/rpo/lab1/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86_64/libfclient.so",
+      "runtimeFiles": [
+        "/home/vmt/Projects/rpo/lab1/fclient/app/src/main/nativeLibs/x86_64/libmbedcrypto.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/vmt/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/vmt/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
