@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/vmt/Projects/rpo/lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86_64",
-  "command": "/home/vmt/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/home/vmt/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dfclient_EXPORTS -I/home/vmt/Projects/rpo/lab2/libs/spdlog/spdlog/include -I/home/vmt/Projects/rpo/lab2/libs/mbedtls/mbedtls/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/fclient.dir/native-lib.cpp.o -c /home/vmt/Projects/rpo/lab2/fclient/app/src/main/cpp/native-lib.cpp",
-  "file": "/home/vmt/Projects/rpo/lab2/fclient/app/src/main/cpp/native-lib.cpp"
+  "directory": "/home/vmt/Projects/rpo/lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64",
+  "command": "/home/vmt/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/home/vmt/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dfclient_EXPORTS -I/home/vmt/Projects/rpo/lab1/libs/spdlog/spdlog/include -I/home/vmt/Projects/rpo/lab1/libs/mbedtls/mbedtls/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/fclient.dir/native-lib.cpp.o -c /home/vmt/Projects/rpo/lab1/fclient/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/vmt/Projects/rpo/lab1/fclient/app/src/main/cpp/native-lib.cpp"
 }
 ]
