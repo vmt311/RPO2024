@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.Fclient</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pinpad.xml">
+        <config>
+          <theme>@style/Theme.Fclient</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d2da1a9-e36b-4784-afc5-7b39ecdc2a48" name="Changes" comment="chain ndkVersion '25.1'">
+      <change afterPath="$PROJECT_DIR$/../../lab1/fclient/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs$BundleAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs$EspressoLibraryAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs$ExtLibraryAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs$PluginAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs$VersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$BundleAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$EspressoLibraryAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$ExtLibraryAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$PluginAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$VersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/sources/org/gradle/accessors/dm/LibrariesForLibs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cache-v2-02dd7ac3b7b811a783e2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cmakeFiles-v1-ec025826d9f089204a9a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/codemodel-v2-f3191ac8eee1c4e97a73.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/index-2024-04-03T00-29-44-0622.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/target-fclient-Debug-8342487c2adc552df322.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/android_gradle_build_mini.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/build_file_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/build_file_index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/metadata_generation_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/metadata_generation_command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/symbol_folder_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/symbol_folder_index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/cache-v2-844efae33623ad25498f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/cmakeFiles-v1-d0ce574149486b6fad7b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/codemodel-v2-5aab423327715969b845.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/index-2024-04-02T09-55-51-0228.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/target-fclient-Debug-ab4c357385dfd403bb6a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/fclient.dir/native-lib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/fclient.dir/native-lib.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/android_gradle_build_mini.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/build_file_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/build_file_index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/compile_commands.json.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/compile_commands.json.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/metadata_generation_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/metadata_generation_command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/symbol_folder_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/symbol_folder_index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/tools/debug/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/tools/debug/x86/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/tools/debug/x86_64/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/tools/debug/x86_64/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/java/com/example/fclient/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/java/com/example/fclient/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/java/com/example/fclient/PinpadActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/res/layout/activity_pinpad.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/compile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/compile.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/library/libmbedcrypto.so" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/library/libmbedcrypto.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/library/libmbedtls.so" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/library/libmbedtls.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/library/libmbedx509.so" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/library/libmbedx509.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/aes/crypt_and_hash" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/aes/crypt_and_hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/cipher/cipher_aead_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/cipher/cipher_aead_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_client" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_dtlsclient" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_dtlsclient" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_dtlsserver" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_dtlsserver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_pkcs7" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_pkcs7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_privkey" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_privkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_pubkey" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_pubkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_x509crl" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_x509crl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_x509crt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_x509crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_x509csr" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/fuzz/fuzz_x509csr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/hash/generic_sum" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/hash/generic_sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/hash/hello" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/hash/hello" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/hash/md_hmac_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/hash/md_hmac_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/dh_client" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/dh_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/dh_genprime" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/dh_genprime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/dh_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/dh_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/ecdh_curve25519" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/ecdh_curve25519" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/ecdsa" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/ecdsa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/gen_key" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/gen_key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/key_app" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/key_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/key_app_writer" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/key_app_writer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/mpi_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/mpi_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/pk_decrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/pk_decrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/pk_encrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/pk_encrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/pk_sign" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/pk_sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/pk_verify" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/pk_verify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_decrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_decrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_encrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_encrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_genkey" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_genkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_sign" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_sign_pss" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_sign_pss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_verify" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_verify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_verify_pss" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/pkey/rsa_verify_pss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/aead_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/aead_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/crypto_examples" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/crypto_examples" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/hmac_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/hmac_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/key_ladder_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/key_ladder_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/psa_constant_names" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/psa_constant_names" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/psa_hash" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/psa/psa_hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/random/gen_entropy" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/random/gen_entropy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/random/gen_random_ctr_drbg" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/random/gen_random_ctr_drbg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/dtls_client" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/dtls_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/dtls_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/dtls_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/mini_client" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/mini_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_client1" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_client1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_client2" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_client2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_context_info" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_context_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_fork_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_fork_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_mail_client" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_mail_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_pthread_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_pthread_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_server2" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/ssl/ssl_server2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/benchmark" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/benchmark" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/dlopen" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/dlopen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/metatest" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/metatest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/query_compile_time_config" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/query_compile_time_config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/query_included_headers" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/query_included_headers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/selftest" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/selftest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/udp_proxy" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/udp_proxy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/zeroize" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/test/zeroize" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/util/pem2der" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/util/pem2der" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/util/strerror" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/util/strerror" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/cert_app" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/cert_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/cert_req" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/cert_req" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/cert_write" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/cert_write" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/crl_app" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/crl_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/load_roots" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/load_roots" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/req_app" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86/programs/x509/req_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/library/libmbedcrypto.so" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/library/libmbedcrypto.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/library/libmbedtls.so" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/library/libmbedtls.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/library/libmbedx509.so" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/library/libmbedx509.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/aes/crypt_and_hash" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/aes/crypt_and_hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/cipher/cipher_aead_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/cipher/cipher_aead_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_client" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_dtlsclient" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_dtlsclient" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_dtlsserver" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_dtlsserver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_pkcs7" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_pkcs7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_privkey" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_privkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_pubkey" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_pubkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509crl" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509crl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509crt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509csr" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509csr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/hash/generic_sum" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/hash/generic_sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/hash/hello" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/hash/hello" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/hash/md_hmac_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/hash/md_hmac_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/dh_client" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/dh_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/dh_genprime" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/dh_genprime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/dh_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/dh_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/ecdh_curve25519" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/ecdh_curve25519" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/ecdsa" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/ecdsa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/gen_key" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/gen_key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/key_app" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/key_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/key_app_writer" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/key_app_writer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/mpi_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/mpi_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/pk_decrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/pk_decrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/pk_encrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/pk_encrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/pk_sign" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/pk_sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/pk_verify" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/pk_verify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_decrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_decrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_encrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_encrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_genkey" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_genkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_sign" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_sign_pss" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_sign_pss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_verify" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_verify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_verify_pss" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/pkey/rsa_verify_pss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/aead_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/aead_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/crypto_examples" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/crypto_examples" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/hmac_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/hmac_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/key_ladder_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/key_ladder_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/psa_constant_names" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/psa_constant_names" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/psa_hash" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/psa/psa_hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/random/gen_entropy" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/random/gen_entropy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/random/gen_random_ctr_drbg" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/random/gen_random_ctr_drbg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/dtls_client" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/dtls_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/dtls_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/dtls_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/mini_client" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/mini_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_client1" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_client1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_client2" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_client2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_context_info" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_context_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_fork_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_fork_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_mail_client" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_mail_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_pthread_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_pthread_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_server2" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/ssl/ssl_server2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/benchmark" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/benchmark" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/dlopen" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/dlopen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/metatest" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/metatest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/query_compile_time_config" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/query_compile_time_config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/query_included_headers" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/query_included_headers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/selftest" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/selftest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/udp_proxy" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/udp_proxy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/zeroize" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/test/zeroize" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/util/pem2der" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/util/pem2der" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/util/strerror" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/util/strerror" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/cert_app" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/cert_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/cert_req" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/cert_req" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/cert_write" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/cert_write" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/crl_app" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/crl_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/load_roots" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/load_roots" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/req_app" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/build/x86_64/programs/x509/req_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/mbedtls" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/mbedtls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/spdlog/build/compile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/spdlog/build/compile.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/spdlog/build/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/spdlog/build/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/spdlog/build/x86/example/example" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/spdlog/build/x86/example/example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/spdlog/build/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/spdlog/build/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/spdlog/build/x86_64/example/example" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/spdlog/build/x86_64/example/example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/libs/spdlog/spdlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/spdlog/spdlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fclient/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fclient/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/compile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/compile.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/library/libmbedcrypto.so" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/library/libmbedcrypto.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/library/libmbedtls.so" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/library/libmbedtls.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/library/libmbedx509.so" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/library/libmbedx509.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/aes/crypt_and_hash" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/aes/crypt_and_hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/cipher/cipher_aead_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/cipher/cipher_aead_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_client" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_dtlsclient" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_dtlsclient" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_dtlsserver" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_dtlsserver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_pkcs7" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_pkcs7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_privkey" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_privkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_pubkey" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_pubkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_x509crl" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_x509crl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_x509crt" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_x509crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_x509csr" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/fuzz/fuzz_x509csr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/hash/generic_sum" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/hash/generic_sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/hash/hello" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/hash/hello" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/hash/md_hmac_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/hash/md_hmac_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/dh_client" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/dh_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/dh_genprime" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/dh_genprime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/dh_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/dh_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/ecdh_curve25519" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/ecdh_curve25519" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/ecdsa" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/ecdsa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/gen_key" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/gen_key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/key_app" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/key_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/key_app_writer" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/key_app_writer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/mpi_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/mpi_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/pk_decrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/pk_decrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/pk_encrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/pk_encrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/pk_sign" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/pk_sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/pk_verify" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/pk_verify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_decrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_decrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_encrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_encrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_genkey" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_genkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_sign" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_sign_pss" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_sign_pss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_verify" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_verify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_verify_pss" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/pkey/rsa_verify_pss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/aead_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/aead_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/crypto_examples" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/crypto_examples" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/hmac_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/hmac_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/key_ladder_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/key_ladder_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/psa_constant_names" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/psa_constant_names" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/psa_hash" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/psa/psa_hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/random/gen_entropy" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/random/gen_entropy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/random/gen_random_ctr_drbg" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/random/gen_random_ctr_drbg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/dtls_client" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/dtls_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/dtls_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/dtls_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/mini_client" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/mini_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_client1" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_client1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_client2" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_client2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_context_info" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_context_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_fork_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_fork_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_mail_client" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_mail_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_pthread_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_pthread_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_server2" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/ssl/ssl_server2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/benchmark" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/benchmark" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/dlopen" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/dlopen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/metatest" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/metatest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/query_compile_time_config" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/query_compile_time_config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/query_included_headers" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/query_included_headers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/selftest" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/selftest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/udp_proxy" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/udp_proxy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/zeroize" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/test/zeroize" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/util/pem2der" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/util/pem2der" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/util/strerror" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/util/strerror" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/cert_app" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/cert_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/cert_req" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/cert_req" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/cert_write" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/cert_write" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/crl_app" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/crl_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/load_roots" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/load_roots" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/req_app" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86/programs/x509/req_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/library/libmbedcrypto.so" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/library/libmbedcrypto.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/library/libmbedtls.so" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/library/libmbedtls.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/library/libmbedx509.so" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/library/libmbedx509.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/aes/crypt_and_hash" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/aes/crypt_and_hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/cipher/cipher_aead_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/cipher/cipher_aead_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_client" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_dtlsclient" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_dtlsclient" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_dtlsserver" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_dtlsserver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_pkcs7" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_pkcs7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_privkey" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_privkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_pubkey" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_pubkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509crl" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509crl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509crt" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509csr" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/fuzz/fuzz_x509csr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/hash/generic_sum" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/hash/generic_sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/hash/hello" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/hash/hello" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/hash/md_hmac_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/hash/md_hmac_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/dh_client" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/dh_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/dh_genprime" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/dh_genprime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/dh_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/dh_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/ecdh_curve25519" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/ecdh_curve25519" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/ecdsa" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/ecdsa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/gen_key" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/gen_key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/key_app" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/key_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/key_app_writer" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/key_app_writer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/mpi_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/mpi_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/pk_decrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/pk_decrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/pk_encrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/pk_encrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/pk_sign" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/pk_sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/pk_verify" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/pk_verify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_decrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_decrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_encrypt" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_encrypt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_genkey" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_genkey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_sign" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_sign_pss" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_sign_pss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_verify" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_verify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_verify_pss" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/pkey/rsa_verify_pss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/aead_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/aead_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/crypto_examples" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/crypto_examples" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/hmac_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/hmac_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/key_ladder_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/key_ladder_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/psa_constant_names" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/psa_constant_names" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/psa_hash" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/psa/psa_hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/random/gen_entropy" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/random/gen_entropy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/random/gen_random_ctr_drbg" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/random/gen_random_ctr_drbg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/dtls_client" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/dtls_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/dtls_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/dtls_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/mini_client" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/mini_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_client1" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_client1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_client2" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_client2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_context_info" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_context_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_fork_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_fork_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_mail_client" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_mail_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_pthread_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_pthread_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_server" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_server2" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/ssl/ssl_server2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/benchmark" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/benchmark" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/dlopen" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/dlopen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/metatest" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/metatest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/query_compile_time_config" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/query_compile_time_config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/query_included_headers" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/query_included_headers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/selftest" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/selftest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/udp_proxy" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/udp_proxy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/zeroize" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/test/zeroize" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/util/pem2der" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/util/pem2der" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/util/strerror" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/util/strerror" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/cert_app" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/cert_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/cert_req" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/cert_req" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/cert_write" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/cert_write" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/crl_app" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/crl_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/load_roots" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/load_roots" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/req_app" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/mbedtls/build/x86_64/programs/x509/req_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/spdlog/build/compile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/spdlog/build/compile.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/spdlog/build/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/spdlog/build/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/spdlog/build/x86/example/example" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/spdlog/build/x86/example/example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/spdlog/build/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/spdlog/build/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/spdlog/build/x86_64/example/example" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/spdlog/build/x86_64/example/example" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/vmt/.android/avd/Pixel_3a_API_34_extension_level_7_x86_64.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2eQp5xiorewdTouEfW3g0svPNuW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vmt/Projects/rpo/lab1/fclient&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Dependencies&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  }
+}</component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.332676471">
+      <recent name="com.example.fclient" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="fclient.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d2da1a9-e36b-4784-afc5-7b39ecdc2a48" name="Changes" comment="" />
+      <created>1711846476837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711846476837</updated>
+    </task>
+    <task id="LOCAL-00001" summary="rpo_thien">
+      <option name="closed" value="true" />
+      <created>1711856419879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711856419879</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rpo_thien">
+      <option name="closed" value="true" />
+      <created>1711856590457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711856590457</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rpo_thien">
+      <option name="closed" value="true" />
+      <created>1711887473404</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711887473404</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chain ndkVersion '25.1'">
+      <option name="closed" value="true" />
+      <created>1712022266717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712022266717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="finally">
+      <option name="closed" value="true" />
+      <created>1712022649765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712022649765</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="rpo_thien" />
+    <MESSAGE value="chain ndkVersion '25.1'" />
+    <MESSAGE value="finally" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally" />
+  </component>
+</project>

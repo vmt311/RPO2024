@@ -17,15 +17,15 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
 add_library(spdlog STATIC IMPORTED)
 set_target_properties(spdlog PROPERTIES IMPORTED_LOCATION
-        /home/vmt/Projects/rpo/lab2/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a)
+        /home/vmt/Projects/rpo/lab1/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a)
 
 add_library(mbedcrypto SHARED IMPORTED)
 set_target_properties(mbedcrypto PROPERTIES IMPORTED_LOCATION
         ${CMAKE_CURRENT_SOURCE_DIR}/../nativeLibs/${ANDROID_ABI}/libmbedcrypto.so)
 
 target_include_directories(fclient PUBLIC
-        /home/vmt/Projects/rpo/lab2/libs/spdlog/spdlog/include
-        /home/vmt/Projects/rpo/lab2/libs/mbedtls/mbedtls/include
+        /home/vmt/Projects/rpo/lab1/libs/spdlog/spdlog/include
+        /home/vmt/Projects/rpo/lab1/libs/mbedtls/mbedtls/include
         )
 
 target_link_libraries( # Specifies the target library.
