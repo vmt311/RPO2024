@@ -1,3 +1,5 @@
 # ninja log v5
-1	3642	1712141146608616176	CMakeFiles/fclient.dir/native-lib.cpp.o	dd71ee2df18e4b25
-3643	3922	1712141146938616200	/home/vmt/Projects/rpo/lab2/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86_64/libfclient.so	731bd6f5c792a2d9
+1	2475	1712223567056836022	CMakeFiles/fclient.dir/native-lib.cpp.o	facec8580805d4fe
+2475	2621	1712223567226835987	/home/vmt/Projects/rpo/lab3/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86_64/libfclient.so	ab1ec9a55b38077f
+2	165576	1712226113026266291	CMakeFiles/fclient.dir/native-lib.cpp.o	facec8580805d4fe
+165577	165835	1712226113356266220	/home/vmt/Projects/rpo/lab3/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86_64/libfclient.so	ab1ec9a55b38077f

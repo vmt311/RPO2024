@@ -1,4 +1,4 @@
-# Install script for directory: /home/vmt/Projects/rpo/lab1/fclient/app/src/main/cpp
+# Install script for directory: /home/vmt/Projects/rpo/lab4/fclient/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vmt/Projects/rpo/lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vmt/Projects/rpo/lab4/fclient/app/.cxx/Debug/2t1c4y3r/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

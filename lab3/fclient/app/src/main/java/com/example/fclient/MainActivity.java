@@ -19,8 +19,8 @@ import com.example.fclient.databinding.ActivityMainBinding;
 
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;
-public class MainActivity extends AppCompatActivity {
-
+public class MainActivity extends AppCompatActivity implements TransactionEvents {
+    private String pin;
     // Used to load the 'fclient' library on application startup.
     static {
         System.loadLibrary("fclient");
@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
 //        tv.setText(stringFromJNI());
         setContentView(R.layout.activity_main);
         int res = initRng();
-        byte[] v = randomBytes(10);
+        byte[] trd = stringToHex("9F0206000000000100");
+        transaction(trd);
 
         activityResultLauncher  = registerForActivityResult(
                 new ActivityResultContracts.StartActivityForResult(),
@@ -50,10 +51,14 @@ public class MainActivity extends AppCompatActivity {
                         Intent data = result.getData();
                         // обработка результата
                         assert data != null;
-                        String pin = data.getStringExtra("pin");
-                        if (pin.length() == 4) Toast.makeText(MainActivity.this, pin, Toast.LENGTH_SHORT).show();
-                        else {
-                            Toast.makeText(MainActivity.this, "Please enter valid pin code", Toast.LENGTH_SHORT).show();
+//                        String pin = data.getStringExtra("pin");
+//                        if (pin.length() == 4) Toast.makeText(MainActivity.this, pin, Toast.LENGTH_SHORT).show();
+//                        else {
+//                            Toast.makeText(MainActivity.this, "Please enter valid pin code", Toast.LENGTH_SHORT).show();
+//                        }
+                        pin = data.getStringExtra("pin");
+                        synchronized (MainActivity.this) {
+                            MainActivity.this.notifyAll();
                         }
                     }
                 });
@@ -61,9 +66,18 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onButtonClick(View v)
     {
-        Intent it = new Intent(this, PinpadActivity.class);
-        //startActivity(it);
-        activityResultLauncher.launch(it);
+        new Thread(()-> {
+            try {
+                byte[] trd = stringToHex("9F0206000000000100");
+                boolean ok = transaction(trd);
+                runOnUiThread(()-> {
+                    Toast.makeText(MainActivity.this, ok ? "ok" : "failed", Toast.LENGTH_SHORT).show();
+                });
+
+            } catch (Exception ex) {
+                // todo: log error
+            }
+        }).start();
     }
 
     /**
@@ -75,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
     public static native byte[] randomBytes(int no);
     public static native byte[] encrypt(byte[] key, byte[] data);
     public static native byte[] decrypt(byte[] key, byte[] data);
+    public native boolean transaction(byte[] trd);
     public static byte[] stringToHex(String s)
     {
         byte[] hex;
@@ -88,7 +103,27 @@ public class MainActivity extends AppCompatActivity {
         }
         return hex;
     }
-
-
+    @Override
+    public String enterPin(int ptc, String amount) {
+        pin = new String();
+        Intent it = new Intent(MainActivity.this, PinpadActivity.class);
+        it.putExtra("ptc", ptc);
+        it.putExtra("amount", amount);
+        synchronized (MainActivity.this) {
+            activityResultLauncher.launch(it);
+            try {
+                MainActivity.this.wait();
+            } catch (Exception ex) {
+                //todo: log error
+            }
+        }
+        return pin;
+    }
+    @Override
+    public void transactionResult(boolean result) {
+        runOnUiThread(()-> {
+            Toast.makeText(MainActivity.this, result ? "ok" : "failed", Toast.LENGTH_SHORT).show();
+        });
+    }
 
 }

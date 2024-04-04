@@ -1,1 +1,1 @@
-/home/vmt/Projects/rpo/lab2/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86_64
+/home/vmt/Projects/rpo/lab3/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86_64
