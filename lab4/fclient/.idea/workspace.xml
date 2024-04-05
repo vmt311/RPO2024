@@ -22,269 +22,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2da1a9-e36b-4784-afc5-7b39ecdc2a48" name="Changes" comment="chain ndkVersion '25.1'">
-      <change afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cache-v2-0e41df2d9c3f6a7e89c7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cmakeFiles-v1-d2d6007658328a3a0eec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/codemodel-v2-35cfa99823b213ec5d8f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/index-2024-04-04T09-10-34-0744.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/target-fclient-Debug-d6b1269099cc0110c239.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/configure_fingerprint.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/index-2024-04-04T11-04-17-0566.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/cache-v2-23e55dbbd8dc68dd734c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/cmakeFiles-v1-228973f198453f32db35.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/codemodel-v2-6038a43685e3a0fe497a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/index-2024-04-04T09-29-59-0362.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/target-fclient-RelWithDebInfo-da85914c7bbe71c2651d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fclient/TransactionEvents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab1/libs/mbedtls/mbedtls" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/mbedtls/mbedtls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab1/libs/spdlog/spdlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/libs/spdlog/spdlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cache-v2-02dd7ac3b7b811a783e2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cmakeFiles-v1-ec025826d9f089204a9a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/codemodel-v2-f3191ac8eee1c4e97a73.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/index-2024-04-03T00-29-44-0622.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/target-fclient-Debug-8342487c2adc552df322.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/build_file_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/build_file_index.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/configure_fingerprint.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/metadata_generation_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/metadata_generation_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/symbol_folder_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86/symbol_folder_index.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/configure_fingerprint.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/tools/debug/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab2/fclient/app/.cxx/tools/debug/x86/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibs$BundleAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibs$EspressoLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibs$ExtLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibs$PluginAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibs$VersionAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$BundleAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$EspressoLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$ExtLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$PluginAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$VersionAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/sources/org/gradle/accessors/dm/LibrariesForLibs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/064ed044fdcbe71cb26cf0eab8a043d80523be37/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs$BundleAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs$EspressoLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs$ExtLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs$PluginAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs$VersionAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$BundleAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$EspressoLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$ExtLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$PluginAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$VersionAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/sources/org/gradle/accessors/dm/LibrariesForLibs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/59ab485aa8f7d177d909be98353b9b11dbf9cc64/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/8.4/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.idea/migrations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/hash_key.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cache-v2-02dd7ac3b7b811a783e2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/cmakeFiles-v1-ec025826d9f089204a9a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/codemodel-v2-f3191ac8eee1c4e97a73.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/index-2024-04-03T00-29-44-0622.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/target-fclient-Debug-8342487c2adc552df322.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/additional_project_files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/android_gradle_build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/android_gradle_build_mini.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/build_file_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/compile_commands.json.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/configure_fingerprint.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/metadata_generation_command.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/prefab_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86/symbol_folder_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/cache-v2-0d8cbf022253e466af7e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/cmakeFiles-v1-dba5c5403bf54c7c70c8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/codemodel-v2-cea655e90dcbac950ea0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/index-2024-04-03T10-45-42-0670.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/target-fclient-Debug-5608f48cac4b26a49ce9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/fclient.dir/native-lib.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/additional_project_files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/android_gradle_build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/android_gradle_build_mini.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/build_file_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/compile_commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/compile_commands.json.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/configure_fingerprint.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/metadata_generation_command.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/prefab_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/Debug/2t1c4y3r/x86_64/symbol_folder_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/hash_key.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/cache-v2-aab9542dc35c17ae3417.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/cmakeFiles-v1-9ea0c013eda228031823.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/codemodel-v2-b2c5b71fa1fe5d1fa5be.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/directory-.-RelWithDebInfo-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/index-2024-04-03T00-29-45-0182.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/target-fclient-RelWithDebInfo-91aab32e7679796cb41a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/additional_project_files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/android_gradle_build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/android_gradle_build_mini.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/build_file_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/compile_commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/compile_commands.json.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/configure_fingerprint.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/metadata_generation_command.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/prefab_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/symbol_folder_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/tools/debug/x86/compile_commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/tools/debug/x86_64/compile_commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.cxx/tools/release/x86/compile_commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/androidTest/java/com/example/fclient/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/cpp/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/cpp/native-lib.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/java/com/example/fclient/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/java/com/example/fclient/PinpadActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/nativeLibs/x86/libmbedcrypto.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/nativeLibs/x86/libmbedtls.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/nativeLibs/x86/libmbedx509.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/nativeLibs/x86_64/libmbedcrypto.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/nativeLibs/x86_64/libmbedtls.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/nativeLibs/x86_64/libmbedx509.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/layout/activity_pinpad.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/app/src/test/java/com/example/fclient/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/gradle/libs.versions.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/local.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/fclient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/fclient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/.cmake/api/v1/reply/index-2024-04-04T09-23-57-0054.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/cache-v2-0d8cbf022253e466af7e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/cmakeFiles-v1-dba5c5403bf54c7c70c8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/codemodel-v2-cea655e90dcbac950ea0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/index-2024-04-03T10-45-42-0670.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/.cmake/api/v1/reply/target-fclient-Debug-5608f48cac4b26a49ce9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/fclient.dir/native-lib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/fclient.dir/native-lib.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/android_gradle_build_mini.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/build_file_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/build_file_index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/compile_commands.json.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/compile_commands.json.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/metadata_generation_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/metadata_generation_command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/symbol_folder_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/2t1c4y3r/x86_64/symbol_folder_index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/cache-v2-aab9542dc35c17ae3417.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/cmakeFiles-v1-9ea0c013eda228031823.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/codemodel-v2-b2c5b71fa1fe5d1fa5be.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/index-2024-04-03T00-29-45-0182.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/.cmake/api/v1/reply/target-fclient-RelWithDebInfo-91aab32e7679796cb41a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/android_gradle_build_mini.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/build_file_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/build_file_index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/compile_commands.json.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/compile_commands.json.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/metadata_generation_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/metadata_generation_command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/symbol_folder_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2kp2z2n1/x86/symbol_folder_index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/tools/debug/x86_64/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/tools/debug/x86_64/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/tools/release/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/tools/release/x86/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fclient/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fclient/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fclient/PinpadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fclient/PinpadActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pinpad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pinpad.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,6 +136,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -341,7 +169,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
-    "last_opened_file_path": "/home/vmt/Projects/rpo/lab2/fclient",
+    "last_opened_file_path": "/home/vmt/Projects/rpo/lab4/fclient",
     "project.structure.last.edited": "Dependencies",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",

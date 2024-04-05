@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "/home/vmt/Projects/rpo/lab2/fclient/app/src/main/cpp/CMakeLists.txt"
+    "/home/vmt/Projects/rpo/lab4/fclient/app/src/main/cpp/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
       "/home/vmt/Android/Sdk/cmake/3.22.1/bin/ninja",
       "-C",
-      "/home/vmt/Projects/rpo/lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86_64",
+      "/home/vmt/Projects/rpo/lab4/fclient/app/.cxx/Debug/2t1c4y3r/x86_64",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
     "/home/vmt/Android/Sdk/cmake/3.22.1/bin/ninja",
     "-C",
-    "/home/vmt/Projects/rpo/lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86_64",
+    "/home/vmt/Projects/rpo/lab4/fclient/app/.cxx/Debug/2t1c4y3r/x86_64",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
@@ -21,9 +21,9 @@
       "toolchain": "toolchain",
       "abi": "x86_64",
       "artifactName": "fclient",
-      "output": "/home/vmt/Projects/rpo/lab2/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86_64/libfclient.so",
+      "output": "/home/vmt/Projects/rpo/lab4/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86_64/libfclient.so",
       "runtimeFiles": [
-        "/home/vmt/Projects/rpo/lab2/fclient/app/src/main/nativeLibs/x86_64/libmbedcrypto.so"
+        "/home/vmt/Projects/rpo/lab4/fclient/app/src/main/nativeLibs/x86_64/libmbedcrypto.so"
       ]
     }
   },

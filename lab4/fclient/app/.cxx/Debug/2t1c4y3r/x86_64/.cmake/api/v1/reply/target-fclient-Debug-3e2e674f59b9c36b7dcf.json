@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/vmt/Projects/rpo/lab2/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86_64/libfclient.so"
+			"path" : "/home/vmt/Projects/rpo/lab4/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86_64/libfclient.so"
 		}
 	],
 	"backtrace" : 1,
@@ -112,7 +112,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/home/vmt/Projects/rpo/lab2/fclient/app/src/main/cpp/../nativeLibs/x86_64/libmbedcrypto.so",
+				"fragment" : "/home/vmt/Projects/rpo/lab4/fclient/app/src/main/cpp/../nativeLibs/x86_64/libmbedcrypto.so",
 				"role" : "libraries"
 			},
 			{

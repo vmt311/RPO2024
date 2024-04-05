@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.6.0"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "RelWithDebInfo",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "fclient::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fclient-Debug-5608f48cac4b26a49ce9.json",
+					"jsonFile" : "target-fclient-RelWithDebInfo-da85914c7bbe71c2651d.json",
 					"name" : "fclient",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/vmt/Projects/rpo/lab2/fclient/app/.cxx/Debug/2t1c4y3r/x86_64",
+		"build" : "/home/vmt/Projects/rpo/lab2/fclient/app/.cxx/RelWithDebInfo/2kp2z2n1/x86",
 		"source" : "/home/vmt/Projects/rpo/lab2/fclient/app/src/main/cpp"
 	},
 	"version" : 

@@ -1,1 +1,1 @@
-/home/vmt/Projects/rpo/lab1/fclient/app/build/intermediates/cxx/RelWithDebInfo/2kp2z2n1/obj/x86
+/home/vmt/Projects/rpo/lab2/fclient/app/build/intermediates/cxx/RelWithDebInfo/2kp2z2n1/obj/x86
