@@ -1,8 +1,8 @@
 package com.example.backend.models;
 
-import jakarta.persistence.Table;
+import javax.persistence.Table;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "artists")
