@@ -1,13 +1,17 @@
 package com.example.backend.models;
 
-import javax.persistence.Table;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "artists")
 @Access(AccessType.FIELD)
+
 public class Artist {
+
     public Artist() { }
     public Artist(Long id) {
         this.id = id;
@@ -27,4 +31,9 @@ public class Artist {
     @ManyToOne()
     @JoinColumn(name = "countryid")
     public Country country;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "artist")
+    public List<Painting> paintings = new ArrayList<Painting>();
+
 }

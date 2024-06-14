@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import BackendService from '../services/BackendService';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-//import {faChevronLeft, faSave} from '@fortawesome/fontawesome-free-solid';
 import {alertActions} from "../utils/Rdx";
 import {connect} from "react-redux";
 import {Form} from "react-bootstrap";
@@ -9,14 +8,13 @@ import {useNavigate, useParams} from "react-router-dom";
 import {faChevronLeft, faSave} from "@fortawesome/free-solid-svg-icons";
 
 const ArtistComponent = props => {
+
     const params = useParams();
 
     const [id, setId] = useState(params.id);
     const [name, setName] = useState("");
-    const [age, setAge] = useState("");
-
-    // Приходится использовать пока что дефолтное значение внешнего ключа, иначе будет ошибка
-    const [countryid, setCountryID] = useState(6);
+    const [century, setCentury] = useState("");
+    const [country, setCountry] = useState(3);
 
     const [hidden, setHidden] = useState(false);
     const navigate = useNavigate();
@@ -26,26 +24,23 @@ const ArtistComponent = props => {
             BackendService.retrieveArtist(id)
                 .then((resp) => {
                     setName(resp.data.name)
-                    setAge(resp.data.age)
-                    setCountryID(resp.data.countryid);
+                    setCentury(resp.data.century)
+                    setCountry(resp.data.country);
                 })
                 .catch(() => setHidden(true))
         }
-    }, []); // [] нужны для вызова useEffect только один раз при инициализации компонента
-    // это нужно для того, чтобы в состояние name каждый раз не записывалось значение из БД
+    }, []);
 
     const onSubmit = (event) => {
         event.preventDefault();
         event.stopPropagation();
         let err = null;
 
-        if (!name) err = "Название художника должно быть указано";
-        if (!age) err = "Возраст художника должен быть указан";
+        if (!name) err = "Имя художника должно быть указано";
+        if (!century) err = "Век, в котором жил художник должен быть указан";
 
         if (err) props.dispatch(alertActions.error(err));
-        let artist = {id, name, age, countryid};
-
-        console.log(artist)
+        let artist = {id, name, century, country};
 
         if (parseInt(artist.id) === -1) {
             BackendService.createArtist(artist)
@@ -81,28 +76,15 @@ const ArtistComponent = props => {
                         name="name"
                         autoComplete="off"
                     />
-
-                    <Form.Label>Возраст</Form.Label>
+                    <Form.Label>Век</Form.Label>
                     <Form.Control
                         type="text"
-                        placeholder="Введите возраст художника"
-                        onChange={(e) => {setAge(e.target.value)}}
-                        value={age}
-                        name="age"
+                        placeholder="Введите век, в котором жил художник"
+                        onChange={(e) => {setCentury(e.target.value)}}
+                        value={century}
+                        name="century"
                         autoComplete="off"
                     />
-
-                    {/*<Form.Label>Номер страны</Form.Label>*/}
-                    {/*<Form.Control*/}
-                    {/*    type="text"*/}
-                    {/*    pattern="[0-9]*"*/}
-                    {/*    placeholder="Введите референсную страну"*/}
-                    {/*    onChange={(e) => {setCountryID(parseInt(e.target.value, 10))}}*/}
-                    {/*    value={countryid}*/}
-                    {/*    name="countryID"*/}
-                    {/*    autoComplete="off"*/}
-                    {/*/>*/}
-
                 </Form.Group>
                 <button className="btn btn-outline-secondary" type="submit">
                     <FontAwesomeIcon icon={faSave}/>{' '}

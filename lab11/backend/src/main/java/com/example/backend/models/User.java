@@ -1,15 +1,7 @@
 package com.example.backend.models;
 
-import javax.persistence.Access;
-import javax.persistence.AccessType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
-import javax.persistence.Table;
-import com.example.backend.models.Museum;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import javax.persistence.*;
 
 import java.time.LocalDateTime;
 import java.util.HashSet;
@@ -18,11 +10,10 @@ import java.util.Set;
 @Entity
 @Table(name = "users")
 @Access(AccessType.FIELD)
+
+
 public class User {
-
-    public User() {
-    }
-
+    public User() { }
     public User(Long id) {
         this.id = id;
     }
@@ -35,12 +26,17 @@ public class User {
     @Column(name = "login", nullable = false, unique = true)
     public String login;
 
+    @JsonIgnore
     @Column(name = "password")
     public String password;
+
+    @Transient
+    public String np;
 
     @Column(name = "email", nullable = false, unique = true)
     public String email;
 
+    @JsonIgnore
     @Column(name = "salt")
     public String salt;
 
@@ -53,6 +49,7 @@ public class User {
     @ManyToMany(mappedBy = "users")
     public Set<Museum> museums = new HashSet<>();
 
+
     public void addMuseum(Museum m) {
         this.museums.add(m);
         m.users.add(this);
@@ -62,4 +59,5 @@ public class User {
         this.museums.remove(m);
         m.users.remove(this);
     }
+
 }

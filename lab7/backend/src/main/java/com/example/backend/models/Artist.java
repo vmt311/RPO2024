@@ -21,7 +21,7 @@ public class Artist {
     @Column(name = "name", nullable = false, unique = true)
     public String name;
 
-    @Column(name = "century", nullable = false)
+    @Column(name = "century")
     public String century;
 
     @ManyToOne()

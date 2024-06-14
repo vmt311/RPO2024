@@ -1,18 +1,20 @@
 import React, {useEffect, useState} from 'react';
 import BackendService from '../services/BackendService';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-//import {faChevronLeft, faSave} from '@fortawesome/fontawesome-free-solid';
+import {faChevronLeft, faSave} from '@fortawesome/fontawesome-free-solid';
 import {alertActions} from "../utils/Rdx";
 import {connect} from "react-redux";
 import {Form} from "react-bootstrap";
 import {useNavigate, useParams} from "react-router-dom";
-import {faChevronLeft, faSave} from "@fortawesome/free-solid-svg-icons";
 
 const CountryComponent = props => {
+
     const params = useParams();
+
     const [id, setId] = useState(params.id);
     const [name, setName] = useState("");
     const [hidden, setHidden] = useState(false);
+
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -23,8 +25,7 @@ const CountryComponent = props => {
                 })
                 .catch(() => setHidden(true))
         }
-    }, []); // [] нужны для вызова useEffect только один раз при инициализации компонента
-    // это нужно для того, чтобы в состояние name каждый раз не записывалось значение из БД
+    }, []);
 
     const onSubmit = (event) => {
         event.preventDefault();
@@ -37,13 +38,11 @@ const CountryComponent = props => {
         if (parseInt(country.id) === -1) {
             BackendService.createCountry(country)
                 .then(() => navigate(`/countries`))
-                .catch(() => {
-                })
+                .catch(() => {})
         } else {
             BackendService.updateCountry(country)
                 .then(() => navigate(`/countries`))
-                .catch(() => {
-                })
+                .catch(() => {})
         }
     }
 
@@ -75,7 +74,7 @@ const CountryComponent = props => {
                 </button>
             </Form>
         </div>
-    )
-}
+    );
+};
 
 export default connect()(CountryComponent);

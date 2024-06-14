@@ -1,8 +1,8 @@
 package com.example.backend.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import javax.persistence.*;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -11,6 +11,7 @@ import java.util.Set;
 @Entity
 @Table(name = "museums")
 @Access(AccessType.FIELD)
+
 public class Museum {
 
     public Museum() { }
@@ -30,14 +31,12 @@ public class Museum {
     public String location;
 
     @JsonIgnore
-    @OneToMany
-    public List<Painting>
-            paintings = new ArrayList<>();
+    @OneToMany(mappedBy = "museum")
+    public List<Painting> paintings = new ArrayList<Painting>();
 
     @JsonIgnore
     @ManyToMany
     @JoinTable(name = "usersmuseums", joinColumns = @JoinColumn(name = "museumid"),
             inverseJoinColumns = @JoinColumn(name = "userid"))
-    public Set<User>
-            users = new HashSet<>();
+    public Set<User> users = new HashSet<>();
 }

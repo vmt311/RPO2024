@@ -1,15 +1,19 @@
 package com.example.backend.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "paintings")
 @Access(AccessType.FIELD)
+
 public class Painting {
 
-    public Painting() { }
 
+    public Painting() { }
     public Painting(Long id) {
         this.id = id;
     }
@@ -19,19 +23,19 @@ public class Painting {
     @Column(name = "id", updatable = false, nullable = false)
     public long id;
 
-    @Column(name = "name", nullable = false, length = 45)
+    @Column(name = "name", nullable = false)
     public String name;
 
-    @JsonIgnore
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "artistid", referencedColumnName = "id")
+
+    @Column(name = "year")
+    public long year;
+
+    @ManyToOne()
+    @JoinColumn(name="artistid")
     public Artist artist;
 
-    @JsonIgnore
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "museumid", referencedColumnName = "id")
+    @ManyToOne()
+    @JoinColumn(name="museumid")
     public Museum museum;
 
-    @Column(name = "year", nullable = true)
-    public Integer year;
 }

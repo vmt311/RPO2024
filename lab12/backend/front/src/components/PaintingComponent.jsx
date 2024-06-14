@@ -1,65 +1,66 @@
 import React, {useEffect, useState} from 'react';
 import BackendService from '../services/BackendService';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-//import {faChevronLeft, faSave} from '@fortawesome/fontawesome-free-solid';
+import {faChevronLeft, faSave} from '@fortawesome/fontawesome-free-solid';
 import {alertActions} from "../utils/Rdx";
 import {connect} from "react-redux";
 import {Form} from "react-bootstrap";
 import {useNavigate, useParams} from "react-router-dom";
-import {faChevronLeft, faSave} from "@fortawesome/free-solid-svg-icons";
+import {faEdit} from "@fortawesome/free-solid-svg-icons";
 
 const PaintingComponent = props => {
+
     const params = useParams();
 
     const [id, setId] = useState(params.id);
     const [name, setName] = useState("");
-    const [year, setYear] = useState(0);
-
-    // Приходится использовать пока что дефолтное значение внешнего ключа, иначе будет ошибка
-    const [museum, setMuseum] = useState(2);
-    const [artist, setArtist] = useState(2);
-
+    const [artist, setArtist] = useState({});
+    const [museum, setMuseum] = useState({});
+    const [year, setYear] = useState("");
     const [hidden, setHidden] = useState(false);
+
     const navigate = useNavigate();
 
     useEffect(() => {
         if (parseInt(id) !== -1) {
             BackendService.retrievePainting(id)
                 .then((resp) => {
-                    setName(resp.data.name)
-                    setYear(resp.data.year)
-
+                    setName(resp.data.name);
                     setArtist(resp.data.artist);
                     setMuseum(resp.data.museum);
+                    setYear(resp.data.year);
                 })
                 .catch(() => setHidden(true))
         }
-    }, []); // [] нужны для вызова useEffect только один раз при инициализации компонента
-    // это нужно для того, чтобы в состояние name каждый раз не записывалось значение из БД
+    }, []);
+
+    const changeArtist = (e) => {
+        setArtist({name: e.target.value});
+        console.log(e.target.value);
+    }
+
+    const changeMuseum = (e) => {
+        setMuseum({name: e.target.value});
+        console.log(e.target.value);
+    }
 
     const onSubmit = (event) => {
         event.preventDefault();
         event.stopPropagation();
         let err = null;
-
-        if (!name) err = "Название художника должно быть указано";
-        if (!year) err = "Возраст художника должен быть указан";
-
+        if (!name) err = "Название картины должно быть указано";
+        if (!year) err = "Года создания должен быть указан";
         if (err) props.dispatch(alertActions.error(err));
-        let painting = {id, name, museum, artist, year};
-
-        //console.log(painting)
+        let painting = {id, name, artist, museum, year};
 
         if (parseInt(painting.id) === -1) {
             BackendService.createPainting(painting)
                 .then(() => navigate(`/paintings`))
-                .catch(() => {
-                })
+                .catch(() => {})
         } else {
             BackendService.updatePainting(painting)
                 .then(() => navigate(`/paintings`))
-                .catch(() => {
-                })
+                .catch(() => {})
         }
     }
 
@@ -75,37 +76,48 @@ const PaintingComponent = props => {
             </div>
             <Form onSubmit={onSubmit}>
                 <Form.Group>
-                    <Form.Label>Имя</Form.Label>
+                    <Form.Label>Название</Form.Label>
                     <Form.Control
                         type="text"
-                        placeholder="Введите имя картины"
+                        placeholder="Введите название картины"
                         onChange={(e) => {setName(e.target.value)}}
                         value={name}
                         name="name"
                         autoComplete="off"
                     />
-
-                    <Form.Label>Возраст</Form.Label>
+                </Form.Group>
+                <Form.Group>
+                    <Form.Label>Художник</Form.Label>
+                    <Form.Control
+                        type="text"
+                        placeholder="Введите имя художника"
+                        onChange={(e) => {changeArtist(e)}}
+                        value={artist.name}
+                        name="artist"
+                        autoComplete="off"
+                    />
+                </Form.Group>
+                <Form.Group>
+                    <Form.Label>Музей</Form.Label>
+                    <Form.Control
+                        type="text"
+                        placeholder="Введите название музея"
+                        onChange={(e) => {changeMuseum(e)}}
+                        value={museum.name}
+                        name="museum"
+                        autoComplete="off"
+                    />
+                </Form.Group>
+                <Form.Group>
+                    <Form.Label>Год создания</Form.Label>
                     <Form.Control
                         type="text"
                         placeholder="Введите год"
                         onChange={(e) => {setYear(e.target.value)}}
                         value={year}
-                        name="age"
+                        name="year"
                         autoComplete="off"
                     />
-
-                    {/*<Form.Label>Номер страны</Form.Label>*/}
-                    {/*<Form.Control*/}
-                    {/*    type="text"*/}
-                    {/*    pattern="[0-9]*"*/}
-                    {/*    placeholder="Введите референсную страну"*/}
-                    {/*    onChange={(e) => {setCountryID(parseInt(e.target.value, 10))}}*/}
-                    {/*    value={countryid}*/}
-                    {/*    name="countryID"*/}
-                    {/*    autoComplete="off"*/}
-                    {/*/>*/}
-
                 </Form.Group>
                 <button className="btn btn-outline-secondary" type="submit">
                     <FontAwesomeIcon icon={faSave}/>{' '}
@@ -113,7 +125,7 @@ const PaintingComponent = props => {
                 </button>
             </Form>
         </div>
-    )
-}
+    );
+};
 
 export default connect()(PaintingComponent);

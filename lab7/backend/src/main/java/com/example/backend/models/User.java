@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import com.example.backend.models.Museum;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import java.time.LocalDateTime;
 import java.util.HashSet;
@@ -47,8 +48,10 @@ public class User {
     @Column(name = "token")
     public String token;
 
+
     @Column(name = "activity")
     public LocalDateTime activity;
+
 
     @ManyToMany(mappedBy = "users")
     public Set<Museum> museums = new HashSet<>();

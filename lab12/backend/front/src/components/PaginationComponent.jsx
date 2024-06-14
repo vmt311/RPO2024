@@ -1,12 +1,14 @@
+
 import React, {Fragment, useEffect, useState} from 'react';
 
 const LEFT_PAGE = 'LEFT';
 const RIGHT_PAGE = 'RIGHT';
 
 const PaginationComponent = props => {
-    const totalRecords = props.totalRecords;
-    const pageNeighbours = props.pageNeighbours;
-    const [currentPage, setCurrentPage] = useState(props.currentPage);
+
+    const totalRecords = props.totalRecords
+    const pageNeighbours = props.pageNeighbours
+    const [currentPage, setCurrentPage] = useState(props.currentPage)
     const totalPages = Math.ceil(props.totalRecords / props.pageLimit)
 
     const range = (from, to, step = 1) => {
@@ -17,7 +19,6 @@ const PaginationComponent = props => {
             range.push(i);
             i += step;
         }
-
         return range;
     }
 
@@ -51,21 +52,20 @@ const PaginationComponent = props => {
                     break;
                 }
             }
-            return [1, ...pages, totalPages]
+            return [1, ...pages, totalPages];
         }
-
         return range(1, totalPages);
     }
 
-
-    useEffect(() => {
+    useEffect( ()=> {
         gotoPage(1);
-    }, []);
+    }, [])
+
 
     const gotoPage = page => {
-        const {onPageChanged = f => f} = props;
+        const { onPageChanged = f => f } = props;
         onPageChanged(page);
-        setCurrentPage(page);
+        setCurrentPage(page)
     }
 
     const handleClick = page => evt => {
@@ -83,9 +83,7 @@ const PaginationComponent = props => {
         gotoPage(currentPage + (pageNeighbours * 2) + 1);
     }
 
-    if (!totalRecords || totalPages === 1) {
-        return null;
-    }
+    if (!totalRecords || totalPages === 1) return null;
 
     const pages = fetchPageNumbers(totalPages);
 
@@ -93,7 +91,8 @@ const PaginationComponent = props => {
         <Fragment>
             <nav aria-label="Pagination">
                 <ul className="pagination">
-                    {pages.map((page, index) => {
+                    { pages.map((page, index) => {
+
                         if (page === LEFT_PAGE) return (
                             <li key={index} className="page-item">
                                 <button className="page-link" aria-label="Previous" onClick={handleMoveLeft}>
@@ -113,15 +112,16 @@ const PaginationComponent = props => {
                         );
 
                         return (
-                            <li key={index} className={`page-item${currentPage === page ? ' active' : ''}`}>
-                                <button className="page-link" onClick={handleClick(page)}>{page}</button>
+                            <li key={index} className={`page-item${ currentPage===page ? ' active' : '' }`}>
+                                <button className="page-link" onClick={ handleClick(page) }>{ page }</button>
                             </li>
                         );
-                    })}
+                    }) }
+
                 </ul>
             </nav>
         </Fragment>
-    )
+    );
 }
 
 export default PaginationComponent;
